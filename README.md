@@ -8,8 +8,7 @@ We first created a class called TreeMapForStrings that maps Strings to Strings, 
 
 void put(String key, String value): add a key and a value to your tree. If the key is already present in the tree, replace the old value with the new one.
 
-String get(String key): get the value associated with a particular key. get should return null if the word is not in the tree.
-Make sure to test your map appropriately. A main method would be a nice way to do this.
+String get(String key): get the value associated with a particular key. get returns null if the word is not in the tree.
 
 ArrayList<String> getKeysForPrefix(String prefix): return a list of all keys that start with the prefix. This is done efficiently (i.e. the entire tree is not traversed in order to find these keys).
 
